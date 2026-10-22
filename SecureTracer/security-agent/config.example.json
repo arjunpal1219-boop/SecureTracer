@@ -1,0 +1,12 @@
+{
+  "api_url": "http://localhost:5000/api",
+  "agent_key": "securetracer-rohit-agent-demo-key",
+  "owner_email": "your-login-email@example.com",
+  "scan_interval_seconds": 3,
+  "protected_directories": [
+    "./protected-data",
+    "../backend/uploads"
+  ],
+  "risk_history_size": 50,
+  "enforcement_mode": "alert-only"
+}
